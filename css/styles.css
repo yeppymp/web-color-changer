@@ -1,0 +1,27 @@
+/* ------------------------------------
+Created by Yeppy Mangun Puspitajudin
+on 5/12/2019
+------------------------------------ */
+
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+.color-changer {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.heart {
+    color: red;
+}
