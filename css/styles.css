@@ -3,6 +3,8 @@ Created by Yeppy Mangun Puspitajudin
 on 5/12/2019
 ------------------------------------ */
 
+/* set body as display flex to centerize all content inside it and
+make height is full virtual height of the screen of PC */
 body {
     font-family: sans-serif;
     justify-content: center;
@@ -16,6 +18,7 @@ p {
     margin: 0;
 }
 
+/* set input position to bottom right */
 .color-changer {
     position: absolute;
     bottom: 16px;

@@ -10,22 +10,28 @@ on 5/12/2019
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web App Color Changes</title>
+    <!-- import styles.css from css folder-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <h1>Web App Color Changes</h1>
+    <!-- &hearts; is HTML unicode UTF-8, used for icon
+    to find another icons, you can visit  http://www.amp-what.com/unicode/search/ -->
     <p>Made with <span class="heart">&hearts;</span> by Yeppy Mangun Puspitajudin</p>
 
     <div class="color-changer">
         <label>Background Color: </label>
         <input type="color" id="bg-color" />
+        <!-- &nbsp; also an HTML unicode for space,
+        because if we input space manually, html won't read that -->
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <label>Text Color: </label>
         <input type="color" id="text-color" />
     </div>
 
+    import main.js from js folder
     <script src="js/main.js"></script>
 
 </body>
